@@ -15,6 +15,9 @@ app.get("/contact", (req, res) => {
 app.get("/about", (req, res) => {
   res.render("about.ejs");
 });
+app.get("/help", (req, res) => {
+  res.render("help.ejs");
+});
 
 /* Write your code here:
 Step 1: Render the home page "/" index.ejs
